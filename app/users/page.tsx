@@ -3,7 +3,7 @@
 import React from "react";
 import getAllUsers from "../lib/getAllUsers";
 import Link from "next/link";
-import { User } from './types';
+
 
 
 
@@ -15,8 +15,6 @@ export default async function UsersPage() {
 
   const content = (
     <section>
-      
-      
       {users.map((user) => {
         return (
           <>

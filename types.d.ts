@@ -1,4 +1,4 @@
-type Post = {
+ type Post = {
   "userId": number,
   "id": number,
   "title": string,
@@ -8,7 +8,7 @@ type Post = {
 
 
 
-export type User = {
+ type User = {
     "id": number,
     "name": string,
     "username": string,
